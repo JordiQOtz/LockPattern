@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/xll1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="30dp"
+    tools:context=".Formulario">
+
+    <TextView
+        android:id="@+id/xtvN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/snom"
+        android:labelFor="@+id/xetN"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/xetN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/xbnA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ins"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/xtvI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sid"
+        android:labelFor="@+id/xetI"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/xetI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/xbnE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/xbnS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salir"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tabla_de_registros"
+        android:labelFor="@+id/xtvV"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/xtvV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"/>
+
+</LinearLayout>
